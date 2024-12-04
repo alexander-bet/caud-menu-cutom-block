@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../themes/caudena"
+		},
+		{
+			"path": "../caudena-text-gradient"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

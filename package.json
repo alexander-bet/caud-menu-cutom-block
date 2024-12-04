@@ -1,0 +1,36 @@
+{
+  "name": "caudena-menu-html-content",
+  "version": "1.0.0",
+  "description": "Custom menu field with Gutenber Editor for Caudena theme",
+  "author": "Caudena",
+  "license": "ISC",
+  "main": "build/menu-editor.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "format": "wp-scripts format"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@wordpress/scripts": "^30.5.1",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^14.8.0",
+    "@wordpress/block-library": "^9.13.0",
+    "@wordpress/blocks": "^14.2.0",
+    "@wordpress/components": "^28.13.0",
+    "@wordpress/data": "^10.13.0",
+    "@wordpress/dom-ready": "^4.13.0",
+    "@wordpress/element": "^6.13.0",
+    "@wordpress/format-library": "^5.13.0",
+    "@wordpress/i18n": "^5.13.0",
+    "@wordpress/media-utils": "^5.13.0"
+  }
+}
